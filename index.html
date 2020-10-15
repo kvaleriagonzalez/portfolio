@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a552920996.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="side-header">
+        <nav class="flex">
+            <ul class="nav-bar flex-nav">
+                <li><a class="home" href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>  
+            </ul>
+            <ul class="nav-bar flex-icons">
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-github"></i></li>
+            </ul>
+        </nav>
+        <div class="flex-container">
+            <h2>Welcome!</h2>
+            <h1 class="element"></h1>
+            <p>based in Toronto, Canada</p>
+            <button class="hire-me">Hire Me</button>
+            <i class="smooth-scrol fas fa-arrow-down"></i>
+        </div>
+    </header>
+    <main>
+        <section class="about-section">
+           <div class=" wrapper" id="about">
+                <div class="text-title">
+                    <h3>ABOUT ME</h3>
+                    <h4>Know Me More</h4>
+                </div>
+                <div class="flex-box">
+                    <div class="text-about">
+                        <p class="bold">
+                            I'm <span>Karen Gonzalez,</span> a Web Developer.</p>
+                        <p>
+                            I'm a front-end developer based in Toronto, Ontario. I love coding and create user-friendly websites. when I'm
+                            not
+                            coding I love to swim and watch movies.</p>
+                        <p>
+                            I'm a graduate of Juno College's Web Development Immersive.</p>
+                        <p>
+                            I decided to become a web developer because coding is always evolving, I'm always looking to learn some cool
+                            tricks and help my team grow. Take a look at my applications and tell me what do you think.</p>
+                    </div>
+                    <div class="right-text">
+                        <p><span>Name:</span>Karen Gonzalez</p>
+                        <p><span>Email:</span>k.valeria.gonzalez@gmail.com</p>
+                        <p><span>From:</span>Puerto Varas, Chile</p>
+                    </div>
+                </div>
+           </div>
+        </section>
+        <section class="portfolio-color">
+            <div class="wrapper" id="portfolio">
+                <div class="text-title">
+                    <h3>PORTFOLIO</h3>
+                    <h4>My Work</h4>
+                </div>
+                <div class="image-size flex-box">
+                    <div class="container">
+                        <img src="./assests/la-fruteria-app.png" alt="">
+                        <div class="overlay">
+                            <p>FRUTERIA APP</p>
+                            <button>live link</button>
+                            <button>github repo</button>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="./assests/la-fruteria-app.png" alt="">
+                        <div class="overlay">
+                            <p>project name</p>
+                            <button>live link</button>
+                            <button>github repo</button>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+        <section class="skills-color">
+            <!-- <div class=""> -->
+                <div class="text-title wrapper">
+                    <h3>PERFORMANCE</h3>
+                    <h4>Skills</h4>
+                </div>
+                <div class="icons">
+                    <img src="./assests/icons8-html-5-96.png" alt="">
+                    <img src="./assests/icons8-css3-96.png" alt="">
+                    <img src="./assests/icons8-javascript-96.png" alt="">
+                    <img src="./assests/icons8-jquery-100.png" alt="">
+                    <img src="./assests/icons8-react-native-96.png" alt="">
+                    <img src="./assests/icons8-sass-96.png" alt="">
+                    <img src="./assests/icons8-firebase-96.png" alt="">
+                    <img src="./assests/icons8-git-96.png" alt="">
+                    <img src="./assests/icons8-visual-studio-code-2019-96.png" alt="">
+                    <img class="sketch-size" src="./assests/sketch-symbol-transparent@2x.png" alt="">
+                    <img class="api-size"src="./assests/api logo.png" alt="">
+                </div>
+            <!-- </div> -->
+        </section>
+        <section>
+            <div class="wrapper">
+                <div class="text-title">
+                    <h3>CONTACT</h3>
+                    <h4>Get in Touch</h4>
+                </div>
+                <div class="flex-contact-section">
+                    <div class="color-icons">
+                        <h5>Contact Me </h5>
+                        <p> <i class="fas fa-envelope"></i>k.valeria.gonzalez@gmail.com</p>
+                        <ul class="flex-icons-bottom">
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><i class="fab fa-linkedin-in"></i></li>
+                            <li><i class="fab fa-github"></i></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form action="http://www.focuspocus.io/magic/k.valeria.gonzalez@gmail.com" method="POST"
+                            enctype="multipart/form-data">
+                            <div class=form-box>
+                                <label for="fullNname"></label>
+                                <input type="text" id="fname" name="firstname" placeholder="Name" class="form-field">
+                                <label for="lname"></label>
+                                <input type="text" id="email" name="email" placeholder="Email adress" class="form-field">
+                            </div>
+                            <label for="subject"></label>
+                            <textarea id="subject" name="subject" placeholder="Comment" class="form-field"
+                                style="height:200px"></textarea>
+                            <div class="submit">
+                                <input class="hover" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    
+    <script src="main.js">
+
+    </script>
+
+</body>
+
+</html>
