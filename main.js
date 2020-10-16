@@ -1,24 +1,31 @@
-const typed = new Typed('.element', {
-  strings: ["I'm Karen Gonzalez","I'm a Web Developer"],
-  	loop: true,
-	typeSpeed: 90,
-    backSpeed: 40,
-	backDelay: 1500,
-});
 $( document ).ready(function() {
-if ($("body").hasClass("side-header")) {
-$('.smooth-scroll').on('click', function() {
-	event.preventDefault();
-    var sectionTo = $(this).attr('href');
-	$('html, body').stop().animate({
-      scrollTop: $(sectionTo).offset().top}, 1500, 'easeInOutExpo');
+    const typed = new Typed('.element', {
+    strings: ["I'm Karen Gonzalez","I'm a Web Developer"],
+        loop: true,
+        typeSpeed: 90,
+        backSpeed: 40,
+        backDelay: 1500,
     });
-   } else {
-$('.smooth-scroll').on('click', function() {
-	event.preventDefault();
-    const sectionTo = $(this).attr('href');
-	$('html, body').stop().animate({
-      scrollTop: $(sectionTo).offset().top - 50}, 1500, 'easeInOutExpo');
-});
-   } 
+    const appearOptions = {
+        threshold: 1,
+        rootMargin: "0px 0px -80px 0px"
+    };
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOnScroll = new IntersectionObserver (function(entries,appearOnScroll 
+    ) {
+        entries.forEach(entry => {
+            console.log(entry)
+            if (!entry.isIntersecting){
+                return;
+            } else {
+                entry.target.classList.add("appear");
+                appearOnScroll.unobserve(entry.target);
+            }
+        });
+    },
+    appearOptions);
+    faders.forEach(fader => {
+        appearOnScroll.observe(fader);
+    })
+    
 });

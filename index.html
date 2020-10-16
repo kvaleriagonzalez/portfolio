@@ -12,31 +12,32 @@
 
 <body>
     <header class="side-header">
-        <nav class="flex">
+        <nav class="flex hide-nav">
             <ul class="nav-bar flex-nav">
                 <li><a class="home" href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>  
-            </ul>
-            <ul class="nav-bar flex-icons">
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li><i class="fab fa-linkedin-in"></i></li>
-                <li><i class="fab fa-github"></i></li>
+                <li><a href="#contact">Contact</a></li>  
             </ul>
         </nav>
+        <ul class="nav-bar flex-icons">
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+            <li><i class="fab fa-github"></i></li>
+        </ul>
         <div class="flex-container">
             <h2>Welcome!</h2>
             <h1 class="element"></h1>
             <p>based in Toronto, Canada</p>
-            <button class="hire-me">Hire Me</button>
-            <i class="smooth-scrol fas fa-arrow-down"></i>
+            <button class="hire-me"><a href="#contact">Hire Me</a></button>
+            <p class="scroll-down-arrow"><span class="animated"><i class="fa fa-chevron-down"></i></span></p>
         </div>
     </header>
+    
     <main>
         <section class="about-section">
            <div class=" wrapper" id="about">
-                <div class="text-title">
+                <div class="text-title fade-in">
                     <h3>ABOUT ME</h3>
                     <h4>Know Me More</h4>
                 </div>
@@ -64,7 +65,7 @@
         </section>
         <section class="portfolio-color">
             <div class="wrapper" id="portfolio">
-                <div class="text-title">
+                <div class="text-title fade-in">
                     <h3>PORTFOLIO</h3>
                     <h4>My Work</h4>
                 </div>
@@ -72,17 +73,17 @@
                     <div class="container">
                         <img src="./assests/la-fruteria-app.png" alt="">
                         <div class="overlay">
-                            <p>FRUTERIA APP</p>
-                            <button>live link</button>
-                            <button>github repo</button>
+                            <p>La Fruteria Quiz</p>
+                            <button>Live link</button>
+                            <button>Github Repo</button>
                         </div>
                     </div>
                     <div class="container">
                         <img src="./assests/la-fruteria-app.png" alt="">
                         <div class="overlay">
-                            <p>project name</p>
-                            <button>live link</button>
-                            <button>github repo</button>
+                            <p>Phonebook App</p>
+                            <button>Live Link</button>
+                            <button>Github Repo</button>
                         </div>
                     </div>
             
@@ -91,8 +92,8 @@
         </section>
         <section class="skills-color">
             <!-- <div class=""> -->
-                <div class="text-title wrapper">
-                    <h3>PERFORMANCE</h3>
+                <div class="text-title wrapper fade-in">
+                    <h3>EXPERTISE</h3>
                     <h4>Skills</h4>
                 </div>
                 <div class="icons">
@@ -112,18 +113,18 @@
         </section>
         <section>
             <div class="wrapper">
-                <div class="text-title">
+                <div class="text-title fade-in" id="contact">
                     <h3>CONTACT</h3>
                     <h4>Get in Touch</h4>
                 </div>
                 <div class="flex-contact-section">
-                    <div class="color-icons">
+                    <div>
                         <h5>Contact Me </h5>
-                        <p> <i class="fas fa-envelope"></i>k.valeria.gonzalez@gmail.com</p>
+                        <p class="email"> <i class="fas fa-envelope"></i>k.valeria.gonzalez@gmail.com</p>
                         <ul class="flex-icons-bottom">
-                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                            <li><i class="fab fa-linkedin-in"></i></li>
-                            <li><i class="fab fa-github"></i></li>
+                            <li><a href=""><i class="twitter fab fa-twitter"></i></a></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-github git-hub"></i></li>
                         </ul>
                     </div>
                     <div>
