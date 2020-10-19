@@ -27,7 +27,7 @@ body {
   height: auto;;
 }
 header {
-  background-image: url(./assests/benjamin-lyngso-GNj3QYAjKoc-unsplash.jpg);
+  background-image: url(./assests/markus-spiske-gn_nY1uptlg-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -45,9 +45,8 @@ ul {
 }
 .flex {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   margin-right:30px;
-  justify-content: center;
 }
 a, i {
   margin: 0px 10px;
@@ -61,10 +60,6 @@ a, i {
 }
 .flex-icons{
   display:flex;
-  justify-content: flex-end;
-  position: relative;
-  bottom: 44px;
-  margin-right: 20px;
 }
 .flex-nav{
    justify-content: center;
@@ -410,6 +405,9 @@ footer {
   }
 }
 @media (max-width: 710px) {
+  .flex{
+  justify-content: end;
+  }
   h3 {
   font-size: 78px;
   }
