@@ -19,6 +19,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow-anchor: none;
 }
 .wrapper {
   max-width: 1000px;
@@ -164,7 +165,6 @@ div .container {
 }
 .overlay {
    padding: 20px;
-   font-weight: bold;
 }
 .overlay button {
    margin-bottom: 10px;
@@ -362,6 +362,12 @@ footer {
   color:white;
   padding:10px;
   text-align: center;
+  margin:0;
+}
+.container button  {
+  background-color: rgb(18, 15, 15);
+  border-radius: 5px;
+  
 }
 @media (max-width: 1100px) {
   .flex-box {
