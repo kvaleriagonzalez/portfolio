@@ -11,20 +11,25 @@
 </head>
 
 <body>
+    <!-- HEADER STARTS HERE -->
     <header class="side-header" id="home">
+        <!-- NAV STARTS HERE -->
         <nav class="flex">
             <ul class="nav-bar flex-nav hide-nav">
-                <li><a class="home" href="#home">Home</a></li>
+                <li><a class="home" href="./index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>  
             </ul>
         </nav>
+        <!-- NAV ENDS HERE -->
+        <!-- ICONS IN NAV -->
         <ul class="nav-bar flex-icons">
             <li><a href="https://twitter.com/_Karen_GB?s=09"><i class="fab fa-twitter"></i></a></li>
             <li><a href="https://www.linkedin.com/in/karengonzalez000/"><i class="fab fa-linkedin-in"></i></a></li>
             <li><a href="https://github.com/kvaleriagonzalez"><i class="fab fa-github"></i></a></li>
         </ul>
+        <!-- HEADER MESSAGE -->
         <div class="flex-container">
             <h2>Welcome!</h2>
             <h1 class="element"></h1>
@@ -33,7 +38,8 @@
             <p class="scroll-down-arrow"><span class="animated"><i class="fa fa-chevron-down"></i></span></p>
         </div>
     </header>
-    <!-- HIDE HUMBERGUR MENU-->
+    <!-- HEADER ENDS HERE -->
+    <!-- HIDE HAMBURGER MENU-->
         <nav class="hamburger-menu">
             <label for="toggle"><i class="menu fa fa-bars"></i></label>
             <input type="checkbox" id="toggle" name="toggle" />
@@ -44,9 +50,11 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+    <!-- MAIN STARTS HERE -->
     <main>
+        <!-- ABOUT SECTION -->
         <section class="about-section">
-           <div class=" wrapper" id="about">
+           <div class=" wrapper about">
                 <div class="text-title fade-in">
                     <h3>ABOUT ME</h3>
                     <h4>Know Me More</h4>
@@ -73,6 +81,8 @@
                 </div>
            </div>
         </section>
+        <!-- ABOUT SECTION ENDS HERE -->
+        <!-- PORTFOLIO SECTION STARTS HERE -->
         <section class="portfolio-color">
             <div class="wrapper" id="portfolio">
                 <div class="text-title fade-in">
@@ -100,6 +110,8 @@
                 </div>
             </div>
         </section>
+        <!-- PORTFOLIO SECTION ENDS HERE -->
+        <!-- SKILLS SECTION STARTS HERE -->
         <section class="skills-color">
             <!-- <div class=""> -->
                 <div class="text-title wrapper fade-in">
@@ -107,20 +119,22 @@
                     <h4>Skills</h4>
                 </div>
                 <div class="icons">
-                    <img src="./assests/icons8-html-5-96.png" alt="">
-                    <img src="./assests/icons8-css3-96.png" alt="">
-                    <img src="./assests/icons8-javascript-96.png" alt="">
-                    <img src="./assests/icons8-jquery-100.png" alt="">
-                    <img src="./assests/icons8-react-native-96.png" alt="">
-                    <img src="./assests/icons8-sass-96.png" alt="">
-                    <img src="./assests/icons8-firebase-96.png" alt="">
-                    <img src="./assests/icons8-git-96.png" alt="">
-                    <img src="./assests/icons8-visual-studio-code-2019-96.png" alt="">
-                    <img class="sketch-size" src="./assests/sketch-symbol-transparent@2x.png" alt="">
-                    <img class="api-size"src="./assests/api logo.png" alt="">
+                    <img src="./assests/icons8-html-5-96.png" alt="HTML logo">
+                    <img src="./assests/icons8-css3-96.png" alt="CSS logo">
+                    <img src="./assests/icons8-javascript-96.png" alt="JavaScript logo">
+                    <img src="./assests/icons8-jquery-100.png" alt="Jquery logo">
+                    <img src="./assests/icons8-react-native-96.png" alt="React logo">
+                    <img src="./assests/icons8-sass-96.png" alt="SASS logo">
+                    <img src="./assests/icons8-firebase-96.png" alt="Firebase logo">
+                    <img src="./assests/icons8-git-96.png" alt="Git logo">
+                    <img src="./assests/icons8-visual-studio-code-2019-96.png" alt="Visual Code logo">
+                    <img class="sketch-size" src="./assests/sketch-symbol-transparent@2x.png" alt="Sketch logo">
+                    <img src="./assests/icons8-api-96.png" alt="Api logo">
                 </div>
             <!-- </div> -->
         </section>
+        <!-- SKILLS SECTION ENDS HERE -->
+        <!-- CONTACT SECTION STARTS HERE -->
         <section>
             <div class="wrapper">
                 <div class="text-title fade-in" id="contact">
@@ -138,6 +152,7 @@
                         </ul>
                     </div>
                     <div>
+                        <!-- FORM-->
                         <form action="http://www.focuspocus.io/magic/k.valeria.gonzalez@gmail.com" method="POST"
                             enctype="multipart/form-data">
                             <div class=form-box>
@@ -146,22 +161,25 @@
                                 <label for="lname"></label>
                                 <input type="text" id="email" name="email" placeholder="Email adress" class="form-field" required>
                             </div>
-                            <label for="subject"></label>
-                            <textarea id="subject" name="subject" placeholder="Comment" class="form-field"
-                                style="height:200px" required></textarea>
-                            <div class="submit">
-                                <input class="hover" type="submit" value="Submit">
-                            </div>
+                                <label for="subject"></label>
+                                <textarea id="subject" name="subject" placeholder="Comment" class="form-field"
+                                    style="height:200px" required></textarea>
+                                <div class="submit">
+                                    <input class="hover" type="submit" value="Submit">
+                                </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- CONTACT SECTION ENDS HERE -->
     </main>
+    <!-- MAIN ENDS HERE -->
+    <!-- FOOTER STARTS HERE-->
     <footer>
         <p>&copy; copyright 2020 - Karen Gonzalez</p>
     </footer>
+    <!-- FOOTER ENDS HERE -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>

@@ -188,7 +188,7 @@ input[type=submit] {
   border:none;  
 }
 textarea {
-  width: 100%;
+  width: 98%;
 }
 .form-box {
   display:flex;
@@ -197,13 +197,14 @@ textarea {
 .form-box div {
    width:48%;
 }
-input[type=text]{
-  width:100%;
-  border-bottom: 1px solid #dae1e3;
+input[type="text"] {
+    width: 98%;
+    border-bottom: 1px solid #dae1e3;
+    margin-left: 4px;
 }
 .form-field {
-  padding:20px;
-  font-size: 20px;
+  padding: 10px 0 17px 12px;
+  margin-top: 12px;
   border-radius: 5px;
 }
 label {
@@ -423,7 +424,7 @@ footer {
   padding: 54px 200px 200px;
   }
   #about > div:nth-child(2) {
-  margin-left: 100px;
+  margin-left: 73px;
   }
   .flex-contact-section {
   margin-left: 0;
@@ -508,9 +509,6 @@ footer {
     font-size: 37px;
   }
   img {
-    width: 50px;
-  }
-  .api-size {
     width: 50px;
   }
   .sketch-size {
