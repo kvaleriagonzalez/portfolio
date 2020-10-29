@@ -22,12 +22,12 @@ body {
   overflow-anchor: none;
 }
 .wrapper {
-  max-width: 1000px;
+  max-width: 1200px;
   margin:0 auto;
   height: auto;;
 }
 header {
-  background-image: url(./assests/markus-spiske-gn_nY1uptlg-unsplash.jpg);
+  background-image: url(./assests/benjamin-lyngso-GNj3QYAjKoc-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -100,24 +100,16 @@ div p {
   background-color:#f8f9fa ;
 }
 h3 {
-  font-size: 115px;
-  color:#dee3e4c9;
+  font-size: 55px;
+  color:#060606;
 }
-h4 {
-  font-size: 45px ;
-  color: #343a40;
-}
+
 .text-title {
   text-align: center;
   position: relative;
   padding: 90px 0;
 }
-h4 {
-  position:absolute;
-  margin-bottom: 0;
-  right: 304px;
-  bottom: 130px;
-}
+
 .flex-box {
   display:flex;
   padding-bottom: 150px;
@@ -149,11 +141,19 @@ span {
   margin-top:70px;
   margin:0 auto;
   position: relative;
-   border-radius: 5px;
+  border-radius: 5px;
+  padding-top:20px;
 }
 div .container {
   text-align: center;
   padding:20px;
+  width: 500px;
+  margin-top: 50px;
+}
+.container {
+  background-color: #8bc4b1;
+  border-radius: 25px;
+  
 }
 .overlay p {
  padding-bottom: 20px;
@@ -310,8 +310,9 @@ ul.sliding-menu {
 	width: 20%; 
 	right: -20%; 
 	top: 0;
-	height: 100%;
-	transition: all 0.5s; 
+  transition: all 0.5s; 
+  background-color: #090808;
+  height: 200px;
 }
 ul.sliding-menu a {
 	border-bottom: 1px solid grey;
@@ -365,11 +366,12 @@ footer {
   border-radius: 5px;
   
 }
+
 @media (max-width: 1100px) {
   .flex-box {
     padding: 0 20px 100px 20px;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
   }
   .flex-contact-section {
     padding: 0 57px;
