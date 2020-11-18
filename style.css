@@ -27,7 +27,7 @@ body {
   height: auto;;
 }
 header {
-  background-image: url(./assests/benjamin-lyngso-GNj3QYAjKoc-unsplash.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -45,9 +45,14 @@ ul {
 }
 .flex {
   display: flex;
-  justify-content: space-between;
-  margin-right:30px;
+  justify-content: center;
 }
+
+.my-picture {
+  width: 50%;
+  border-radius: 50px 20px; 
+}
+
 a, i {
   margin: 0px 10px;
   color:#ffffff;
@@ -60,6 +65,7 @@ a, i {
 }
 .flex-icons{
   display:flex;
+  flex-direction: column;
 }
 .flex-nav{
    justify-content: center;
@@ -70,17 +76,29 @@ li {
 }
 .flex-container {
   display:flex;
-  flex-direction: column;
   justify-content: center;
   align-items:center;
   height:90%;
 }
+
 h2 {
   font-size:31px;
+  color:#20c982;
 }
 div p {
   font-size:20px;
+  margin:5px;
 }
+
+.text-about > p:nth-child(5) {
+margin-top: 10px;
+}
+
+.flex-container > div:nth-child(1) {
+  width: 30%;
+  display:flex;
+}
+
 .flex-container:last-child{
   align-self: flex-end;
 }
@@ -406,6 +424,26 @@ footer {
   margin-bottom: 12px;
   }
 }
+
+.typed-cursor {
+  display: none;
+}
+
+@media (max-width:890px){
+  h1 {
+    font-size:38px;
+  }
+  .my-picture {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .flex-container {
+    height: 100%;
+    flex-direction:column;
+  }
+
+}
+
 @media (max-width: 710px) {
   .flex{
   justify-content: end;
@@ -439,6 +477,7 @@ footer {
     display:none;
   }
 }
+
 @media (min-width: 710px) {
   .hamburger-menu {
     display:none;
@@ -529,3 +568,11 @@ footer {
   right: -40%;
   }
 }
+
+/* .my-picture {
+  width: 80%;
+  margin-bottom: 50px;
+  }
+  .flex-container {
+  height: 100%;
+  } */
