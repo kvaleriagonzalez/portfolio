@@ -114,7 +114,7 @@ margin-top: 10px;
   background-color:#20c982;
   color:white;
 }
-.about-section, .skills-color {
+.about-section, .portfolio-color {
   background-color:#f8f9fa ;
 }
 h3 {
@@ -151,9 +151,8 @@ span {
   border-bottom: 1px solid #eaeaea;
   padding:5px 0;
 }
-.portfolio-color{
-  background-color: #fff;
-}
+
+
 .image-size img {
   width: 450px;
   margin-top:70px;
@@ -167,11 +166,6 @@ div .container {
   padding:20px;
   width: 500px;
   margin-top: 50px;
-}
-.container {
-  background-color: #8bc4b1;
-  border-radius: 25px;
-  
 }
 .overlay p {
  padding-bottom: 20px;
