@@ -127,10 +127,12 @@ h3 {
   position: relative;
   padding: 90px 0;
 }
+#about {
+padding-bottom: 100px;
+}
 
 .flex-box {
   display:flex;
-  padding-bottom: 150px;
   justify-content: space-between;
 }
 .text-about {
